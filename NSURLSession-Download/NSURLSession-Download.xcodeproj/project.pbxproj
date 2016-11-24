@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84441B591DE4285700925265 /* DownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84441B581DE4285700925265 /* DownloadTool.m */; };
 		8477736A1DE29CBC00A03259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847773691DE29CBC00A03259 /* main.m */; };
 		8477736D1DE29CBC00A03259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477736C1DE29CBC00A03259 /* AppDelegate.m */; };
 		847773701DE29CBC00A03259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477736F1DE29CBC00A03259 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		847773781DE29CBC00A03259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847773761DE29CBC00A03259 /* LaunchScreen.storyboard */; };
 		847773831DE29CBD00A03259 /* NSURLSession_DownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847773821DE29CBD00A03259 /* NSURLSession_DownloadTests.m */; };
 		8477738E1DE29CBD00A03259 /* NSURLSession_DownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477738D1DE29CBD00A03259 /* NSURLSession_DownloadUITests.m */; };
+		8477739D1DE2A24400A03259 /* CycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477739C1DE2A24400A03259 /* CycleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84441B571DE4285700925265 /* DownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTool.h; sourceTree = "<group>"; };
+		84441B581DE4285700925265 /* DownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTool.m; sourceTree = "<group>"; };
 		847773651DE29CBC00A03259 /* NSURLSession-Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSURLSession-Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847773691DE29CBC00A03259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8477736B1DE29CBC00A03259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		847773891DE29CBD00A03259 /* NSURLSession-DownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLSession-DownloadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8477738D1DE29CBD00A03259 /* NSURLSession_DownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession_DownloadUITests.m; sourceTree = "<group>"; };
 		8477738F1DE29CBD00A03259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8477739B1DE2A24400A03259 /* CycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleView.h; sourceTree = "<group>"; };
+		8477739C1DE2A24400A03259 /* CycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				8477736C1DE29CBC00A03259 /* AppDelegate.m */,
 				8477736E1DE29CBC00A03259 /* ViewController.h */,
 				8477736F1DE29CBC00A03259 /* ViewController.m */,
+				84441B571DE4285700925265 /* DownloadTool.h */,
+				84441B581DE4285700925265 /* DownloadTool.m */,
+				8477739B1DE2A24400A03259 /* CycleView.h */,
+				8477739C1DE2A24400A03259 /* CycleView.m */,
 				847773711DE29CBC00A03259 /* Main.storyboard */,
 				847773741DE29CBC00A03259 /* Assets.xcassets */,
 				847773761DE29CBC00A03259 /* LaunchScreen.storyboard */,
@@ -277,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				847773701DE29CBC00A03259 /* ViewController.m in Sources */,
+				8477739D1DE2A24400A03259 /* CycleView.m in Sources */,
 				8477736D1DE29CBC00A03259 /* AppDelegate.m in Sources */,
+				84441B591DE4285700925265 /* DownloadTool.m in Sources */,
 				8477736A1DE29CBC00A03259 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +528,7 @@
 				847773941DE29CBD00A03259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847773951DE29CBD00A03259 /* Build configuration list for PBXNativeTarget "NSURLSession-DownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				847773971DE29CBD00A03259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847773981DE29CBD00A03259 /* Build configuration list for PBXNativeTarget "NSURLSession-DownloadUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				8477739A1DE29CBD00A03259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

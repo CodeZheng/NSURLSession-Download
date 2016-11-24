@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CycleView.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet CycleView *Cview;
+@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
 
 @end
 
